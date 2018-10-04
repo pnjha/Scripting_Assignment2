@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="style.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet"  href="https://www.w3schools.com/lib/w3.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+
+	
+	<title>tryit</title>
+
+</head>
+<body>
+	
+<div class="split left" id = "left">
+  <div >
+    <button id = "runCode" onclick="runCode()">Run</button>
+    <button id = "clearCodeSection" onclick="clearCode()">Clear</button>
+    <br><br>
+    <h2> Code Section </h2>
+    <textarea id = "code" rows="35%" cols="93%" left = "10px" onkeyup="runCode()"></textarea>
+  </div>
+</div>
+
+<div class="split right" id = "right">
+  <div >
+   	<button id = "clearDisplaySection" onclick="clearOutput()">Clear</button>
+   	<div id = "displayOutput">
+   		<iframe id="IFrame"></iframe>
+   	</div>
+  </div>
+</div> 
+
+ <script src= "main.js"></script>
+
+</body>
+</html>

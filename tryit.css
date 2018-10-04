@@ -1,0 +1,90 @@
+
+
+.split {
+  
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Control the left side */
+.left {
+  left: 0;
+  background-color: #111;
+}
+
+/* Control the right side */
+.right {
+  right: 0;
+  
+}
+
+/* If you want the content centered horizontally and vertically */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* Style the image inside the centered container, if needed */
+.centered img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+button {
+  background-color: #046380;
+  color: #FFF;
+  border: none;
+  padding: 15px 15px 15px 15px;
+  font-size: 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 2px 2px 0 #034154;
+  margin-bottom: 10px;
+  margin-left: 18px;
+  transition: opacity .4s ease-out, transform .4s ease-out, visibility .4s ease-out;
+  position: relative;
+  top: -10px;
+  left: 10px;
+}
+
+button:hover {
+  background-color: #034F66;
+}
+
+button:active {
+  background-color: #034154;
+  box-shadow: none;
+  position: relative;
+  top: -8px;
+  left: 2px;
+}
+
+textarea {
+  color: black;
+  padding: 15px 15px 15px 15px;
+  font-size: 15px;
+  border-radius: 4px;
+  box-shadow: 2px 2px 0 #034154;
+  margin-bottom: 10px;
+  margin-left: 18px;
+  transition: opacity .4s ease-out, transform .4s ease-out, visibility .4s ease-out;
+  position: relative;
+  top: -10px;
+  left: 10px;
+}
+
+iframe{
+  background-color: #ddd;
+  width: 100%;
+  height: -webkit-fill-available;
+  border: none;
+}

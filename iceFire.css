@@ -1,0 +1,71 @@
+body {
+  font-family: Helvetica, sans-serif;
+  padding: 100px 10%;
+}
+
+div{
+
+	background-color: "#090";
+}
+
+.well{
+
+	align-items: center;
+	position: relative;
+	width: 60%;
+	margin-left: 20%;
+}
+
+ input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+button {
+  background-color: #046380;
+  color: #FFF;
+  border: none;
+  padding: 15px 15px;
+  font-size: 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 2px 2px 0 #034154;
+  margin-bottom: 10px;
+  margin-left: 18px;
+  transition: opacity .4s ease-out, transform .4s ease-out, visibility .4s ease-out;
+  position: relative;
+  top: -10px;
+}
+
+button:hover {
+  background-color: #034F66;
+}
+
+button:active {
+  background-color: #034154;
+  box-shadow: none;
+  position: relative;
+  top: -8px;
+  left: 2px;
+}
